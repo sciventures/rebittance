@@ -1,0 +1,104 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+// Our variables
+$header-font-family: "Varela Round", Helvetica, Arial, sans-serif;
+$base-font-family: "Lusitana", serif;
+$base-font-size:   18px;
+$small-font-size:  $base-font-size * 0.75;
+$base-line-height: 1.5;
+
+$spacing-unit:     30px;
+
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$grey-color-dark:  darken($grey-color, 25%);
+
+$on-palm:          600px;
+$on-laptop:        800px;
+
+
+
+// Using media queries with like this:
+// @include media-query($palm) {
+//     .wrapper {
+//         padding-right: $spacing-unit / 2;
+//         padding-left: $spacing-unit / 2;
+//     }
+// }
+@mixin media-query($device) {
+    @media screen and (max-width: $device) {
+        @content;
+    }
+}
+
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
+
+
+h1, h2, h3, h4 {
+  font-family: $header-font-family;
+  color:#052f43;
+}
+h2,h3,h4,a,a:visited,a:active {
+  color:#0d495f;
+}
+
+body {
+  background:#f1f1f1;
+  color:#555;
+}
+
+section {
+  margin:25px 0px;
+  &.jumbotron {
+    padding:50px;
+    margin-top:0px;
+    background:url(/assets/bg_masthead_hk.jpg) top center no-repeat;
+    background-size:cover;
+    color:#fff;
+    text-shadow:1px 1px 1px #000;
+    min-height:400px;
+    h1 {
+      margin-top:80px;
+    }
+  }
+  &.auxiliary {
+    margin-top:50px;
+  }
+  &.how-it-works, &.references {
+    background-color:#e1e1e1;
+    .container {
+      padding:50px 0px;
+    }
+  }
+}
+
+ol, ul {
+  &.nolist {
+    list-style-type:none;
+    margin:0px;
+    padding:0px;
+  }
+  &.social-sharing {
+    overflow:hidden;
+    li {
+      float:left;
+      margin-right:20px;
+    }
+  }
+}

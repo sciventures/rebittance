@@ -1,0 +1,7 @@
+source 'https://rubygems.org'
+gem 'github-pages'
+# gem 'liquid', '2.5.5' 
+# gem 'sliq', github: 'slim-template/sliq'
+# gem 'slim', github: 'slim-template/slim'
+# gem 'jekyll', '1.5.1'
+# gem 'jekyll-slim'
