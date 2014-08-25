@@ -1,7 +1,7 @@
 # Site settings
 title: Rebittance.org
 email: hello@rebittance.org
-baseurl: "/rebittance/" # the subpath of your site, e.g. /blog/
+baseurl: "/rebittance" # the subpath of your site, e.g. /blog/
 url: "http://rebittance.org" # the base hostname & protocol for your site
 twitter_username: rebitPH
 github_username:  sciventures
