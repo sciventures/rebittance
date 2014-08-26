@@ -1,5 +1,6 @@
 source 'https://rubygems.org'
 gem 'github-pages'
+# gem 'jekyll-compass'
 # gem 'liquid', '2.5.5' 
 # gem 'sliq', github: 'slim-template/sliq'
 # gem 'slim', github: 'slim-template/slim'
