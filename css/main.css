@@ -32,6 +32,10 @@ a:hover {
   color:#68d6de;
   font-weight: bold;
 }
+.darkerbluetext{
+  color:#4896ae;
+  font-weight: bold;
+}
 .boldtext{
   font-weight: bold;
 }
@@ -253,11 +257,22 @@ a:hover {
   margin-left:auto;
   margin-right:auto;
 }
-#getinvolved h3{
+#getinvolved h3, #faq h3{
   text-align:center;
   padding-top:10px;
   padding-bottom:30px;
 
+}
+#faq h3 {
+  padding-top:50px;
+}
+dl dt h4 {
+  padding-top:20px;
+  line-height:1.5;
+}
+dl dd p {
+  line-height:1.5;
+  margin-bottom:15px;
 }
 .involvedstep{
   background: #ffffff;
@@ -340,7 +355,7 @@ a:hover {
 .furtherreadingcontent .boldtext{
     color:#333;
 }
-.disclosure {
+.disclosure, .contributors {
   padding-top:50px;
   font-size:11px;
 }
