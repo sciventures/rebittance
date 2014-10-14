@@ -77,7 +77,7 @@ a:hover {
   bottom: 80px;
   width: 100%;
   z-index: 1;
-
+  font-size:18px;
 }
 
 
@@ -339,7 +339,10 @@ a:hover {
 .furtherreadingcontent .boldtext{
     color:#333;
 }
-
+.disclosure {
+  padding-top:50px;
+  font-size:11px;
+}
 /*
 @media screen and (min-width: 1025px){
   .howstepimage{
