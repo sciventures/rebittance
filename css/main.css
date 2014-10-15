@@ -32,6 +32,10 @@ a:hover {
   color:#68d6de;
   font-weight: bold;
 }
+.darkerbluetext{
+  color:#4896ae;
+  font-weight: bold;
+}
 .boldtext{
   font-weight: bold;
 }
@@ -77,7 +81,7 @@ a:hover {
   bottom: 80px;
   width: 100%;
   z-index: 1;
-
+  font-size:18px;
 }
 
 
@@ -191,7 +195,7 @@ a:hover {
   padding-top: 60px;
   padding-bottom: 90px;
 }
-#howitworkstext{
+#howitworkstext, #howitworkssupplementtext {
   padding-top:20px;
   padding-bottom:60px;
   margin-left:auto;
@@ -221,9 +225,10 @@ a:hover {
   padding-bottom:10px;
 }
 .howsteptext{
-  font-size:13px;
-  padding-left: 20px;
-  padding-right: 20px;
+  font-size:15px;
+  line-height:20px;
+  padding-left: 30px;
+  padding-right: 30px;
   padding-bottom: 20px;
 }
 #whycheaper{
@@ -252,11 +257,22 @@ a:hover {
   margin-left:auto;
   margin-right:auto;
 }
-#getinvolved h3{
+#getinvolved h3, #faq h3{
   text-align:center;
   padding-top:10px;
   padding-bottom:30px;
 
+}
+#faq h3 {
+  padding-top:50px;
+}
+dl dt h4 {
+  padding-top:20px;
+  line-height:1.5;
+}
+dl dd p {
+  line-height:1.5;
+  margin-bottom:15px;
 }
 .involvedstep{
   background: #ffffff;
@@ -339,7 +355,10 @@ a:hover {
 .furtherreadingcontent .boldtext{
     color:#333;
 }
-
+.disclosure, .contributors {
+  padding-top:50px;
+  font-size:11px;
+}
 /*
 @media screen and (min-width: 1025px){
   .howstepimage{
